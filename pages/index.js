@@ -79,7 +79,9 @@ const Home = (props) => {
           <div className="home-hero1">
             <div className="home-container1">
               <h1 className="home-hero-heading heading1">
-                Professional Ecommerce Website for Industrial Air Filtration
+                <span className="home-text">Průmyslová filtrace</span>
+                <br></br>
+                <span>a odsávání.</span>
               </h1>
               <span className="home-hero-sub-heading">
                 Takoma: Your Trusted Air Filtration Solution
@@ -98,7 +100,7 @@ const Home = (props) => {
         <div className="home-details">
           <div className="home-details1">
             <div className="home-container2">
-              <span className="home-text sectionTitle">
+              <span className="home-text03 sectionTitle">
                 <span>Details</span>
                 <br></br>
               </span>
@@ -124,7 +126,7 @@ const Home = (props) => {
           <div className="home-features-container">
             <div className="home-features1">
               <div className="home-container3">
-                <span className="home-text3 sectionTitle">
+                <span className="home-text06 sectionTitle">
                   <span>features</span>
                   <br></br>
                 </span>
@@ -243,7 +245,7 @@ const Home = (props) => {
             </div>
             <div className="home-separator"></div>
             <div className="home-container7">
-              <span className="home-text6">
+              <span className="home-text09">
                 © 2023 myCompany, All Rights Reserved.
               </span>
               <div className="home-icon-group1">
@@ -588,7 +590,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text {
+          .home-text03 {
             color: var(--dl-color-primary1-blue80);
             text-align: left;
             font-family: 'Raleway';
@@ -651,7 +653,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text3 {
+          .home-text06 {
             color: var(--dl-color-primary1-blue80);
             font-family: 'Raleway';
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -866,7 +868,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text6 {
+          .home-text09 {
             color: var(--dl-color-secondary-gray500);
           }
           .home-icon-group1 {
@@ -903,6 +905,9 @@ const Home = (props) => {
               padding-right: 0px;
             }
             .home-hero-heading {
+              text-align: center;
+            }
+            .home-text {
               text-align: center;
             }
             .home-hero-sub-heading {
@@ -987,7 +992,7 @@ const Home = (props) => {
               align-items: center;
               justify-content: flex-start;
             }
-            .home-text {
+            .home-text03 {
               text-align: center;
             }
             .home-details-heading {
@@ -1047,7 +1052,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text6 {
+            .home-text09 {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
           }
@@ -1114,7 +1119,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text6 {
+            .home-text09 {
               text-align: center;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
